@@ -1,14 +1,27 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import "../../styles/variables.css";
+import "../../styles/global.css";
 
 function Header() {
   return (
-    <nav>
-      <Link to="/">Accueil</Link>
-      <Link to="/devis">Devis</Link>
-      <Link to="/modeles">Modeles</Link>
-      <Link to="/services">Services</Link>
-    </nav>
+    <header className="header">
+      <div className="header-container">
+        <Link to="/" className="logo">
+          <span className="logo-berjou">Berjou</span>
+          <span className="logo-digital">Digital</span>
+        </Link>
+        <nav>
+          <Link to="/">Accueil</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/modeles">Modèles</Link>
+          <Link to="/devis">Devis</Link>
+        </nav>
+        <Link to="/devis" className="btn-header">
+          Démarrer
+        </Link>
+      </div>
+    </header>
   );
 }
 

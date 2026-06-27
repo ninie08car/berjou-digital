@@ -1,10 +1,82 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+}
+
 .header-container {
   max-width: 1200px;
   margin: auto;
   padding: 0 24px;
   height: 80px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.logo-berjou {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--bordeaux);
+}
+
+.logo-digital {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--ink);
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav a {
+  color: var(--foreground);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--bordeaux);
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navigation a {
+  color: var(--foreground);
+  transition: 0.3s;
+}
+
+.navigation a:hover {
+  color: var(--bordeaux);
+}
+
+.btn-header {
+  padding: 12px 24px;
+  border-radius: 50px;
+  background: var(--bordeaux);
+  color: var(--cream);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.btn-header:hover {
+  background: var(--terracotta);
 }
