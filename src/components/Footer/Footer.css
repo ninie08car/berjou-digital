@@ -1,0 +1,80 @@
+.footer {
+  margin-top: 8rem;
+  padding: 5rem 0 2rem;
+  background: var(--blush);
+  border-top: 1px solid var(--border);
+}
+
+.footer-container {
+  width: min(1200px, 90%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.footer-column p,
+.footer-column li {
+  margin-top: 15px;
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
+.footer-column ul {
+  margin-top: 20px;
+}
+
+.footer-column li {
+  margin-bottom: 12px;
+}
+
+.footer-column a {
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  color: var(--bordeaux);
+}
+
+.footer-logo {
+  display: flex;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.logo-berjou {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--bordeaux);
+}
+
+.logo-digital {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--ink);
+}
+
+.footer-bottom {
+  width: min(1200px, 90%);
+  margin: 60px auto 0;
+  padding-top: 25px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
