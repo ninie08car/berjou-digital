@@ -1,0 +1,12 @@
+.hero {
+  padding: 100px 0;
+}
+
+.hero-container {
+  width: min(1200px, 90%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
