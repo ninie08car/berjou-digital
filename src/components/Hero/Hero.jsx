@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./Hero.css";
+import heroImage from "../../assets/images/hero-workspace.webp";
 
 function Hero() {
   return (
@@ -15,16 +17,16 @@ function Hero() {
             mettre en valeur votre activité et attirer de nouveaux clients.
           </p>
           <div className="hero-buttons">
-            <a href="/devis" className="btn-secondary">
+            <Link to="/devis" className="btn-primary">
               Demander un devis
-            </a>
-            <a href="/modeles" className="btn-secondary">
+            </Link>
+            <Link to="/modeles" className="btn-secondary">
               Voir les modèles
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hero-image">
-          {/* Ici on ajoutera une image plus tard */}
+          <img src={heroImage} alt="Création de sites web BerjouDigital" />
         </div>
       </div>
     </section>
