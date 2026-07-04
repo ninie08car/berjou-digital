@@ -1,0 +1,139 @@
+/* ===========================
+   HERO
+=========================== */
+
+.devis-hero {
+  padding: 120px 0 80px;
+}
+
+.devis-hero h1 {
+  max-width: 800px;
+  margin: 20px 0;
+  font-size: 4rem;
+  line-height: 1.1;
+  color: var(--bordeaux);
+}
+
+.devis-hero p:last-child {
+  max-width: 650px;
+  color: var(--muted-foreground);
+  line-height: 1.8;
+}
+
+/* ===========================
+   LAYOUT
+=========================== */
+
+.devis {
+  padding-bottom: 100px;
+}
+
+.devis-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.etape {
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.etape span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--terracotta);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.etape h3 {
+  color: var(--bordeaux);
+  margin-bottom: 10px;
+}
+
+.etape p {
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
+
+form {
+  background: white;
+  padding: 50px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.ligne {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: white;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--bordeaux);
+}
+
+select,
+textarea {
+  margin-bottom: 25px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+
+.merci {
+  background: var(--blush);
+  padding: 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.merci h2 {
+  color: var(--bordeaux);
+  margin-bottom: 20px;
+}
+
+.merci p {
+  color: var(--muted-foreground);
+}
+
+@media (max-width: 900px) {
+  .devis-hero h1 {
+    font-size: 3rem;
+  }
+
+  .devis-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .ligne {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    padding: 30px;
+  }
+}
