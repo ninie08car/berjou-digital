@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Modeles.css";
+import modelArtisan from "../../assets/images/model-artisan.jpg";
+import modelCommercant from "../../assets/images/model-commercant.jpg";
+import modelAssociation from "../../assets/images/model-association.jpg";
 
 function Modeles() {
   return (
@@ -14,10 +17,7 @@ function Modeles() {
         </p>
         <div className="modeles-grid">
           <article className="modele-card">
-            <img
-              src="../../assets/images/model-artisan.jpg"
-              alt="Modèle Artisan"
-            />
+            <img src={modelArtisan} alt="Modèle Artisan" />
             <div className="modele-content">
               <h3>Artisans</h3>
               <p>
@@ -30,10 +30,7 @@ function Modeles() {
             </div>
           </article>
           <article className="modele-card">
-            <img
-              src="../../assets/images/model-commercant.jpg"
-              alt="Modèle Commerce"
-            />
+            <img src={modelCommercant} alt="Modèle Commerce" />
             <div className="modele-content">
               <h3>Commerçants</h3>
               <p>
@@ -46,10 +43,7 @@ function Modeles() {
             </div>
           </article>
           <article className="modele-card">
-            <img
-              src="../../assets/images/model-association.jpg"
-              alt="Modèle Association"
-            />
+            <img src={modelAssociation} alt="Modèle Association" />
             <div className="modele-content">
               <h3>Associations</h3>
               <p>

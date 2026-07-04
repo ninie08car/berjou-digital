@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Devis from "./pages/Devis";
 import Modeles from "./pages/Modeles";
-import Services from "./pages/Services";
+import Services from "./pages/Services/Services";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";

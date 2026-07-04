@@ -1,5 +1,5 @@
 .modeles {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .modeles h2 {
@@ -9,7 +9,7 @@
 
 .modeles-intro {
   max-width: 700px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: var(--muted-foreground);
 }
 

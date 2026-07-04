@@ -31,27 +31,30 @@
   margin-top: 45px;
 }
 
-.btn-primary {
+.hero .btn-primary {
   padding: 16px 30px;
   background: var(--bordeaux);
   color: white;
+  border: 2px solid var(--bordeaux);
   border-radius: 50px;
   transition: 0.3s;
 }
 
-.btn-primary:hover {
+.hero .btn-primary:hover {
   background: var(--terracotta);
+  border-color: var(--terracotta);
 }
 
-.btn-secondary {
+.hero .btn-secondary {
   padding: 16px 30px;
+  background: transparent;
   border: 2px solid var(--bordeaux);
   border-radius: 50px;
   color: var(--bordeaux);
   transition: 0.3s;
 }
 
-.btn-secondary:hover {
+.hero .btn-secondary:hover {
   background: var(--bordeaux);
   color: white;
 }

@@ -1,5 +1,5 @@
 .pourquoi-moi {
-  padding: 100px 0;
+  padding: 70px 0;
   background: var(--blush);
 }
 
@@ -10,7 +10,7 @@
 
 .pourquoi-intro {
   max-width: 700px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: var(--muted-foreground);
 }
 

@@ -1,0 +1,114 @@
+/* ===========================
+   HERO
+=========================== */
+
+.services-hero {
+  padding: 120px 0 80px;
+}
+
+.services-hero h1 {
+  max-width: 900px;
+  margin: 20px 0;
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.services-hero span {
+  color: var(--bordeaux);
+  font-style: italic;
+}
+
+.hero-text {
+  max-width: 600px;
+  color: var(--muted-foreground);
+  line-height: 1.8;
+}
+
+/* ===========================
+   SERVICES
+=========================== */
+
+.services-list {
+  padding-bottom: 100px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 2fr 4fr 3fr;
+  gap: 60px;
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+}
+
+.service:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.numero {
+  display: block;
+  font-size: 3rem;
+  color: var(--gold);
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.service h2 {
+  margin: 15px 0;
+  color: var(--bordeaux);
+}
+
+.prix {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--terracotta);
+  font-size: 0.8rem;
+}
+
+.service-center {
+  line-height: 1.8;
+  color: var(--muted-foreground);
+}
+
+.service-right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-right li {
+  color: var(--muted-foreground);
+}
+
+/* ===========================
+   CTA
+=========================== */
+
+.services-cta {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.services-cta h2 {
+  margin: 20px 0;
+}
+
+.services-cta p {
+  margin-bottom: 40px;
+  color: var(--muted-foreground);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 900px) {
+  .services-hero h1 {
+    font-size: 3rem;
+  }
+
+  .service {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
