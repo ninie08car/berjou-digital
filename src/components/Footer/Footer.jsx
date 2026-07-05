@@ -40,11 +40,12 @@ function Footer() {
             <li>Réponse sous 48 h</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <p>
-            @ {new Date().getFullYear()} BerjouDigital - Tous droits réservés
-          </p>
-          <span>Conçu avec soin</span>
+      </div>
+      <div className="footer-bottom">
+        <span>© {new Date().getFullYear()} BerjouDigital</span>
+        <div className="footer-links">
+          <Link to="/mentions-legales">Mentions légales</Link>
+          <Link to="/confidentialite">Politique de confidentialité</Link>
         </div>
       </div>
     </footer>
