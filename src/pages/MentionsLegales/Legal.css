@@ -1,0 +1,82 @@
+/* ===========================
+   PAGE
+=========================== */
+
+.legal {
+  padding: 120px 0 100px;
+}
+
+.legal h1 {
+  margin: 20px 0 60px;
+  color: var(--bordeaux);
+  font-size: 3.5rem;
+}
+
+.legal article {
+  margin-bottom: 50px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid var(--border);
+}
+
+.legal article:last-child {
+  border-bottom: none;
+}
+
+/* ===========================
+   TITRES
+=========================== */
+
+.legal h2 {
+  margin-bottom: 20px;
+  color: var(--bordeaux);
+  font-size: 1.8rem;
+}
+
+/* ===========================
+   PARAGRAPHES
+=========================== */
+
+.legal p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+}
+
+.legal strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+/* ===========================
+   LIENS
+=========================== */
+
+.legal a {
+  color: var(--bordeaux);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.legal a:hover {
+  color: var(--terracotta);
+  text-decoration: underline;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+  .legal {
+    padding: 80px 0;
+  }
+
+  .legal h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  .legal h2 {
+    font-size: 1.5rem;
+  }
+}

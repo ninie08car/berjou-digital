@@ -45,7 +45,7 @@ function Footer() {
         <span>© {new Date().getFullYear()} BerjouDigital</span>
         <div className="footer-links">
           <Link to="/mentions-legales">Mentions légales</Link>
-          <Link to="/confidentialite">Politique de confidentialité</Link>
+          <Link to="/politiques">Politique de confidentialité</Link>
         </div>
       </div>
     </footer>
