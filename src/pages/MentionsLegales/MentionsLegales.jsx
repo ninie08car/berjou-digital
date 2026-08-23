@@ -11,10 +11,10 @@ function MentionsLegales() {
           <p>
             Le présent site est édité par <strong>BerjouDigital</strong>.
           </p>
-          <p>Responsable de la publication : Annie Berjou.</p>
-          <p>Statut : Micro-entreprise (en cours de création).</p>
-          <p>Numéro SIRET : à compléter après immatriculation.</p>
-          <p>Email : bonjour@berjoudigital.fr</p>
+          <p>Responsable de la publication : Annie Berjou </p>
+          <p>Statut : Micro-entreprise</p>
+          <p>Numéro SIREN : 108641069 </p>
+          <p>Email : annie.berjou@gmail.fr</p>
         </article>
         <article>
           <h2>Hébergement</h2>

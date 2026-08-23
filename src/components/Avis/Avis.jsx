@@ -13,7 +13,8 @@ function Avis() {
         <div className="avis-grid">
           <article className="avis-card">
             <p className="avis-texte">
-              « Annie a parfaitement compris nos attentes. Le résultat est
+              Avis fictif
+              <br />« Annie a parfaitement compris nos attentes. Le résultat est
               élégant, clair et très professionnel. »
             </p>
             <h3>Marie D.</h3>
@@ -21,16 +22,18 @@ function Avis() {
           </article>
           <article className="avis-card">
             <p className="avis-texte">
-              « Un accompagnement du début à la fin. Notre nouveau site inspire
-              davantage confiance à nos clients. »
+              Avis fictif
+              <br />« Un accompagnement du début à la fin. Notre nouveau site
+              inspire davantage confiance à nos clients. »
             </p>
             <h3>Thomas L.</h3>
             <span>Commerçant</span>
           </article>
           <article className="avis-card">
             <p className="avis-texte">
-              « Très à l'écoute et disponible. Le site est rapide, moderne et
-              simple à administrer. »
+              Avis fictif
+              <br />« Très à l'écoute et disponible. Le site est rapide, moderne
+              et simple à administrer. »
             </p>
             <h3>Sophie M.</h3>
             <span>Association</span>
