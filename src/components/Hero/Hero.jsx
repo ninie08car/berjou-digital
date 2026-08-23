@@ -8,10 +8,7 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <p className="eyebrow">Studio web indépendant</p>
-          <h1>
-            Des sites internet élégants pour les artisans, commerçants,
-            indépendants et particuliers.
-          </h1>
+          <h1>Des sites internet modernes pour développer votre activité.</h1>
           <p className="hero-description">
             Je crée des sites modernes, rapides et faciles à utiliser afin de
             mettre en valeur votre activité et attirer de nouveaux clients.

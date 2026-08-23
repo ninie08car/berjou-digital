@@ -4,46 +4,50 @@ import "./Services.css";
 const services = [
   {
     numero: "I",
-    titre: "Création de site",
-    prix: "À partir de 890 €",
+    titre: "Pack Essentiel",
+    prix: "À partir de 790 €",
     description:
       "Un site vitrine moderne, responsive et optimisé pour mettre en valeur votre activité et attirer de nouveaux clients.",
     options: [
-      "Design personnalisé",
-      "Jusqu'à 5 pages",
+      "Site vitrine jusqu'à 3 pages",
+      "Design moderne",
+      "Responsive (ordinateur, tablette, mobile)",
       "Formulaire de contact",
-      "Responsive",
-      "Optimisation SEO",
+      "Intégration Google Maps (si besoin)",
+      "Liens vers les réseaux sociaux",
+      "SEO de base",
       "Mise en ligne",
     ],
   },
   {
     numero: "II",
-    titre: "Référencement local",
-    prix: "À partir de 390 €",
+    titre: "Pack professionnel",
+    prix: "À partir de 1190 €",
     description:
       "Améliorez votre visibilité sur Google et attirez des clients proches de chez vous grâce à une stratégie de référencement local.",
     options: [
-      "Audit SEO",
-      "Google Business",
-      "Mots-clés locaux",
-      "Optimisation technique",
-      "Conseils personnalisés",
+      "Jusqu'à 6pages",
+      "Optimisation des performances",
+      "Optimisation SEO plus poussée",
+      "Galerie photos",
+      "Formation rapide à la gestion du site",
+      "Assistance après la mise en ligne pendant une période définie",
     ],
   },
   {
     numero: "III",
     titre: "Maintenance",
-    prix: "À partir de 45 €/mois",
+    prix: "À partir de 49 €/mois",
     description:
-      "Je m'occupe des mises à jour, de la sécurité et des petites évolutions afin que votre site reste toujours performant.",
-    options: [
-      "Sauvegardes",
-      "Mises à jour",
-      "Sécurité",
-      "Support",
-      "Corrections",
-    ],
+      "Je m'occupe des mises à jour et des petites évolutions afin que votre site reste toujours performant.",
+    options: ["Mises à jour", "Corrections", "Petites modifications"],
+  },
+  {
+    numero: "IV",
+    titre: "Refonte",
+    prix: "À partir de 45 €/mois",
+    description: "Je m'occupe de moderniser votre site existant",
+    options: ["Modernisation"],
   },
 ];
 

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/icons/logo.png";
 import "./Header.css";
 import "../../styles/variables.css";
 import "../../styles/global.css";
@@ -8,8 +9,9 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <span className="logo-berjou">Berjou</span>
-          <span className="logo-digital">Digital</span>
+          <img src={logo} alt="logo-berjou" />
+          {/* <span className="logo-berjou">Berjou</span>
+          <span className="logo-digital">Digital</span> */}
         </Link>
         <nav>
           <Link to="/">Accueil</Link>

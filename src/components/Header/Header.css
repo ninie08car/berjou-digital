@@ -22,6 +22,13 @@
   align-items: baseline;
 }
 
+.logo img {
+  margin-top: 20px;
+  max-height: 170px;
+  width: auto;
+  display: block;
+}
+
 .logo-berjou {
   font-family: var(--font-serif);
   font-size: 2rem;
