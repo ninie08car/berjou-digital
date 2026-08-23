@@ -14,7 +14,7 @@ function MentionsLegales() {
           <p>Responsable de la publication : Annie Berjou </p>
           <p>Statut : Micro-entreprise</p>
           <p>Numéro SIREN : 108641069 </p>
-          <p>Email : annie.berjou@gmail.fr</p>
+          <p>Email : annie.berjou@gmail.com</p>
         </article>
         <article>
           <h2>Hébergement</h2>
@@ -45,7 +45,7 @@ function MentionsLegales() {
           <h2>Contact</h2>
           <p>Pour toute question concernant ce site, vous pouvez écrire à :</p>
           <p>
-            <strong>bonjour@berjoudigital.fr</strong>
+            <strong>annie.berjou@gmail.com</strong>
           </p>
         </article>
         <article>
