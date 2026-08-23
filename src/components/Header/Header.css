@@ -87,3 +87,28 @@ nav a:hover {
 .btn-header:hover {
   background: var(--terracotta);
 }
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .header-container {
+    padding: 0 16px;
+    height: 68px;
+  }
+
+  .logo img {
+    max-height: 105px;
+  }
+
+  nav {
+    gap: 16px;
+  }
+
+  nav a {
+    font-size: 0.85rem;
+  }
+
+  .btn-header {
+    padding: 9px 14px;
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+  }
+}
