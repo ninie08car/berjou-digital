@@ -66,8 +66,8 @@ function Devis() {
             </div>
             <div className="etape">
               <span>03</span>
-              <h3>Création</h3>
-              <p>Nous lançons votre site.</p>
+              <h3>Mise en œuvre</h3>
+              <p>Nous réalisons la prestation adaptée à votre besoin.</p>
             </div>
           </aside>
           <main>
@@ -97,12 +97,14 @@ function Devis() {
                 </div>
                 <select name="projet" defaultValue="" required>
                   <option value="" disabled>
-                    Type de projet
+                    Choisissez une prestation
                   </option>
-                  <option value="Création de site">Création de site</option>
-                  <option value="Refonte">Refonte</option>
-                  <option value="SEO">SEO</option>
+                  <option value="Pack Essentiel">Pack Essentiel</option>
+                  <option value="Pack professionnel">
+                    Pack professionnel
+                  </option>
                   <option value="Maintenance">Maintenance</option>
+                  <option value="Refonte">Refonte</option>
                 </select>
                 <select name="budget" defaultValue="">
                   <option value="">Budget</option>
