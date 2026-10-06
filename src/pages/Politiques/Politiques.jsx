@@ -60,7 +60,7 @@ function Confidentialite() {
           </ul>
           <p>Vous pouvez exercer ces droits à tout moment en écrivant à :</p>
           <p>
-            <strong>annie.berjou@gmail.com</strong>
+            <strong>contact@berjoudigital.fr</strong>
           </p>
         </article>
         <article>

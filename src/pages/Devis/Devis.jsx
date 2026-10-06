@@ -13,7 +13,7 @@ function Devis() {
 
     try {
       const reponse = await fetch(
-        "https://formsubmit.co/ajax/annie.berjou@gmail.com",
+        "https://formsubmit.co/ajax/contact@berjoudigital.fr",
         {
           method: "POST",
           headers: {
@@ -33,7 +33,7 @@ function Devis() {
       setEnvoye(true);
     } catch {
       setErreur(
-        "L'envoi a échoué. Vérifiez votre connexion et réessayez, ou écrivez directement à annie.berjou@gmail.com.",
+        "L'envoi a échoué. Vérifiez votre connexion et réessayez, ou écrivez directement à contact@berjoudigital.fr.",
       );
     } finally {
       setEnvoiEnCours(false);

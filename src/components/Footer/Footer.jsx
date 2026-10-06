@@ -35,7 +35,7 @@ function Footer() {
         <div className="footer-column">
           <h3 className="eyebrow">Contact</h3>
           <ul>
-            <li>annie.berjou@gmail.com</li>
+            <li>contact@berjoudigital.fr</li>
             <li>Micro-entreprise . France</li>
             <li>Réponse sous 48 h</li>
           </ul>
