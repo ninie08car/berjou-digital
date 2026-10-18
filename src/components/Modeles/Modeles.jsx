@@ -12,7 +12,7 @@ function Modeles() {
         <h2>Des modèles pensés pour chaque activité</h2>
         <p className="modeles-intro">
           Choisissez un modèle adapté à votre métier. Chaque site est
-          entièrement personnlisable selon vos couleurs, votre logo et vos
+          entièrement personnalisable selon vos couleurs, votre logo et vos
           besoins.
         </p>
         <div className="modeles-grid">

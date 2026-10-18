@@ -1,3 +1,4 @@
+import { FaFileInvoice, FaClock, FaHandshake } from "react-icons/fa";
 import "./Avis.css";
 
 function Avis() {
@@ -11,7 +12,7 @@ function Avis() {
           performant et facile à utiliser.
         </p>
         <div className="avis-grid">
-          <article className="avis-card">
+          {/* <article className="avis-card">
             <p className="avis-texte">
               Avis fictif
               <br />« Annie a parfaitement compris nos attentes. Le résultat est
@@ -37,6 +38,30 @@ function Avis() {
             </p>
             <h3>Sophie M.</h3>
             <span>Association</span>
+          </article> */}
+          <article className="avis-card">
+            <FaFileInvoice className="avis-icon" />
+            <h3>Un devis clair</h3>
+            <p>
+              Un devis détaillé et sans surprise, pour que vous sachiez
+              exactement ce que comprend votre projet avant de vous lancer.
+            </p>
+          </article>
+          <article className="avis-card">
+            <FaClock className="avis-icon" />
+            <h3>Une réponse sous 48 h</h3>
+            <p>
+              Un interlocuteur unique qui répond rapidement à vos messages, de
+              la première demande jusqu'à la mise en ligne.
+            </p>
+          </article>
+          <article className="avis-card">
+            <FaHandshake className="avis-icon" />
+            <h3>Un suivi après la mise en ligne</h3>
+            <p>
+              Je reste disponible une fois votre site publié pour les
+              corrections, les mises à jour et vos questions.
+            </p>
           </article>
         </div>
       </div>

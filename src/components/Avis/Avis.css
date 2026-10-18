@@ -30,7 +30,7 @@
 
 .avis-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 40px rgba(93, 43, 88, 0.12);
 }
 
 .avis-texte {
@@ -40,9 +40,34 @@
   color: var(--foreground);
 }
 
+/* icône dans une pastille, comme les autres sections */
+.avis-icon {
+  display: block;
+  box-sizing: content-box;
+  width: 22px;
+  height: 22px;
+  padding: 15px;
+  margin-bottom: 22px;
+  background: var(--blush);
+  color: var(--bordeaux);
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.avis-card:hover .avis-icon {
+  background: var(--bordeaux);
+  color: var(--cream);
+}
+
 .avis-card h3 {
   color: var(--bordeaux);
-  margin-bottom: 5px;
+  margin-bottom: 14px;
+}
+
+.avis-card p {
+  color: var(--muted-foreground);
+  line-height: 1.8;
+  margin-bottom: 0;
 }
 
 .avis-card span {

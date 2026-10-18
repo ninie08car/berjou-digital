@@ -30,7 +30,31 @@
 
 .pourquoi-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 35px rgba(93, 43, 88, 0.12);
+}
+
+/* icône dans une pastille, comme les cartes de services */
+.pourquoi-icon {
+  display: block;
+  box-sizing: content-box;
+  width: 22px;
+  height: 22px;
+  padding: 15px;
+  margin-bottom: 22px;
+  background: var(--blush);
+  color: var(--bordeaux);
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.pourquoi-card:hover .pourquoi-icon {
+  background: var(--bordeaux);
+  color: var(--cream);
+}
+
+.pourquoi-card h3 {
+  margin-bottom: 14px;
+  color: var(--bordeaux);
 }
 
 .pourquoi-card p {

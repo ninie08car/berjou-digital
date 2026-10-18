@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { FaPalette, FaMobileAlt, FaRocket, FaComments } from "react-icons/fa";
 import "./PourquoiMoi.css";
 
 function PourquoiMoi() {
   return (
-    <section className="pourquoimoi">
+    <section className="pourquoi-moi">
       <div className="container">
         <p className="eyebrow">Pourquoi Berjou Digital?</p>
         <h2>Un accompagnement humain, simple et efficace</h2>
@@ -14,14 +14,16 @@ function PourquoiMoi() {
         </p>
         <div className="pourquoi-grid">
           <article className="pourquoi-card">
-            <h3>🎨 Un design moderne</h3>
+            <FaPalette className="pourquoi-icon" />
+            <h3>Un design moderne</h3>
             <p>
               Des interfaces élégantes qui inspirent confiance et mettent votre
               activité en valeur.
             </p>
           </article>
           <article className="pourquoi-card">
-            <h3>📱 Responsive</h3>
+            <FaMobileAlt className="pourquoi-icon" />
+            <h3>Responsive</h3>
             <p>
               Votre site sera parfaitement lisible sur ordinateur, tablette et
               smartphone.
@@ -29,7 +31,8 @@ function PourquoiMoi() {
           </article>
 
           <article className="pourquoi-card">
-            <h3>🚀 Performances</h3>
+            <FaRocket className="pourquoi-icon" />
+            <h3>Performances</h3>
             <p>
               Des pages rapides pour offrir une meilleure expérience utilisateur
               et favoriser le référencement.
@@ -37,7 +40,8 @@ function PourquoiMoi() {
           </article>
 
           <article className="pourquoi-card">
-            <h3>💬 Un accompagnement</h3>
+            <FaComments className="pourquoi-icon" />
+            <h3>Un accompagnement</h3>
             <p>
               Un interlocuteur unique, des échanges simples et un suivi
               personnalisé avant et après la mise en ligne.
