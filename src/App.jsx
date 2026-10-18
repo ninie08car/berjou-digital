@@ -3,6 +3,7 @@ import "./App.css";
 
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact/Contact";
 import Devis from "./pages/Devis/Devis";
 import Modeles from "./pages/Modeles/Modeles";
 import Services from "./pages/Services/Services";
