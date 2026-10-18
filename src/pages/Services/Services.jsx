@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { FaLaptopCode, FaPaintBrush, FaTools } from "react-icons/fa";
 import "./Services.css";
 
 const services = [
   {
-    numero: "I",
+    Icon: FaLaptopCode,
     titre: "Pack Essentiel",
     prix: "À partir de 790 €",
     description:
@@ -20,7 +21,7 @@ const services = [
     ],
   },
   {
-    numero: "II",
+    Icon: FaLaptopCode,
     titre: "Pack professionnel",
     prix: "À partir de 1190 €",
     description:
@@ -35,7 +36,7 @@ const services = [
     ],
   },
   {
-    numero: "III",
+    Icon: FaTools,
     titre: "Maintenance",
     prix: "À partir de 49 €/mois",
     description:
@@ -43,7 +44,7 @@ const services = [
     options: ["Mises à jour", "Corrections", "Petites modifications"],
   },
   {
-    numero: "IV",
+    Icon: FaPaintBrush,
     titre: "Refonte",
     prix: "À partir de 45 €/mois",
     description: "Je m'occupe de moderniser votre site existant",
@@ -70,9 +71,11 @@ function Services() {
       <section className="services-list">
         <div className="container">
           {services.map((service) => (
-            <article className="service" key={service.numero}>
+            <article className="service" key={service.titre}>
               <div className="service-left">
-                <span className="numero">{service.numero}</span>
+                <div className="service-heading">
+                  <service.Icon className="service-icon" aria-hidden="true" />
+                </div>
                 <h2>{service.titre}</h2>
                 <p className="prix">{service.prix}</p>
               </div>
