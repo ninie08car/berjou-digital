@@ -18,8 +18,11 @@ function MentionsLegales() {
         </article>
         <article>
           <h2>Hébergement</h2>
-          <p>Hébergeur : à compléter avant la mise en ligne.</p>
-          <p>Adresse : à compléter.</p>
+          <p>Hébergeur : GitHub, Inc. (GitHub Pages)</p>
+          <p>
+            Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
+            États-Unis
+          </p>
         </article>
         <article>
           <h2>Propriété intellectuelle</h2>
