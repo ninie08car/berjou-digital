@@ -30,6 +30,9 @@ function Footer() {
             <li>
               <Link to="/devis">Devis</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
         <div className="footer-column">
