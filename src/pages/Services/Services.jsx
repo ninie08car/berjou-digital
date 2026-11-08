@@ -46,9 +46,9 @@ const services = [
   {
     Icon: FaPaintBrush,
     titre: "Refonte",
-    prix: "À partir de 45 €/mois",
+    prix: "À partir de 400€",
     description: "Je m'occupe de moderniser votre site existant",
-    options: ["Modernisation"],
+    options: ["Modernisation", "Amélioration de design"],
   },
 ];
 
