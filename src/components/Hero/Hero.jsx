@@ -8,10 +8,11 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <p className="eyebrow">Studio web indépendant</p>
-          <h1>Des sites internet modernes pour développer votre activité.</h1>
+          <h1>Création de sites internet à Agen et dans le Lot-et-Garonne</h1>
           <p className="hero-description">
-            Je crée des sites modernes, rapides et faciles à utiliser afin de
-            mettre en valeur votre activité et attirer de nouveaux clients.
+            BerjouDigital accompagne les artisans, commerçants et petites
+            entreprises dans la création de sites internet modernes,
+            professionnels et adaptés à leurs besoins.
           </p>
           <div className="hero-buttons">
             <Link to="/devis" className="btn-primary">

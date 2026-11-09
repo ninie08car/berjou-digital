@@ -59,12 +59,13 @@ function Services() {
         <div className="container">
           <p className="eyebrow">Services</p>
           <h1>
-            Trois prestations,
-            <span> une seule exigence.</span>
+            Création de sites internet
+            <span> et services web à Agen.</span>
           </h1>
           <p className="hero-text">
-            Chaque projet est unique. Ensemble, nous trouvons la solution
-            adaptée à votre activité et à votre budget.
+            Création de sites vitrines, référencement local, refonte et
+            maintenance : BerjouDigital vous accompagne pour développer votre
+            présence sur internet.
           </p>
         </div>
       </section>
