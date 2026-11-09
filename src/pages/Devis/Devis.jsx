@@ -45,7 +45,7 @@ function Devis() {
       <section className="devis-hero">
         <div className="container">
           <p className="eyebrow">Demande de devis</p>
-          <h1>Parlons de votre projet.</h1>
+          <h1>Demandez votre devis de création de site internet</h1>
           <p>
             Quelques informations suffisent pour préparer un devis personnalisé.
           </p>
@@ -100,9 +100,7 @@ function Devis() {
                     Choisissez une prestation
                   </option>
                   <option value="Pack Essentiel">Pack Essentiel</option>
-                  <option value="Pack professionnel">
-                    Pack professionnel
-                  </option>
+                  <option value="Pack professionnel">Pack professionnel</option>
                   <option value="Maintenance">Maintenance</option>
                   <option value="Refonte">Refonte</option>
                 </select>

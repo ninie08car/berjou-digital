@@ -51,8 +51,8 @@ function Modeles() {
         <div className="container">
           <p className="eyebrow">Modèles</p>
           <h1>
-            Des modèles pensés
-            <span> pour votre activité.</span>
+            Des modèles de sites internet
+            <span> adaptés à votre activité.</span>
           </h1>
           <p className="hero-description">
             Chaque modèle est entièrement personnalisable afin de créer un site

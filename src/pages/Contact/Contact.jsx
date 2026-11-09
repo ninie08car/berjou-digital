@@ -47,7 +47,7 @@ function Contact() {
       <section className="contact-hero">
         <div className="container">
           <p className="eyebrow">Contact</p>
-          <h1>Une question ? Écrivez-moi.</h1>
+          <h1>Contactez BerjouDigital pour votre projet web</h1>
           <p>
             Un renseignement, une idée, un doute avant de vous lancer : je vous
             réponds avec plaisir.
